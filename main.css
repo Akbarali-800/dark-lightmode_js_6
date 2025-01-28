@@ -1,0 +1,95 @@
+:root {
+    --body-orqa-rangi: black;
+    --text-orqa-rangi: white;
+}
+
+body {
+    background-color: rgba(196, 181, 165, 1);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+header {
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-weight: 900;
+    font-size: 24px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.LightMode{
+    width: 120px;
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    background-color: rgba(251, 152, 47, 1);
+}
+
+.DarkMode{
+    width: 120px;
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+
+.main_div{
+    margin-top: 200px;
+    display: flex;
+    gap: 200px;
+}
+
+.box{
+    margin-left: 100px;
+}
+
+.text_p{
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+h1{
+    font-size: 28px;
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+.im1{
+    width: 500px;
+}
+
+.md_btn{
+    width: 120px;
+    border-radius: 10px;
+    border: none;
+    height: 33px;
+    background-color: rgba(251, 152, 47, 1);
+}
